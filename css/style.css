@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,6 +65,8 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 </body>
 </html>
+=======
+>>>>>>> af4bc97c28f7ceba50645bd044eb2f9253a6d7e5
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f1f1f1;
@@ -89,6 +92,10 @@ video {
 main {
     flex-grow: 1;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> af4bc97c28f7ceba50645bd044eb2f9253a6d7e5
 .card {
     background-color: rgb(45, 42, 42)!important;
     width: 1000px;
