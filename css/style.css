@@ -173,6 +173,10 @@ footer .container {
     footer a {
         font-size: 0.9rem;
     }
+    footer:hover {
+        transform: none;
+        box-shadow: none;
+    }
 
     h5.card-title {
         font-size: 1.2rem;
@@ -188,12 +192,18 @@ footer .container {
         height: 150px;
         width: 150px;
     }
-
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
     .list-group-item {
         font-size: 0.8rem;
         padding: 8px;
     }
-
+    footer:hover {
+        transform: none;
+        box-shadow: none;
+    }
     footer .container p,
     footer .container a {
         font-size: 0.8rem;
