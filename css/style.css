@@ -162,7 +162,9 @@ footer .container {
     .container {
         padding: 15px;
     }
-
+    footer {
+        width: 90%;
+    }
     footer .container {
         flex-direction: column;
         padding: 10px;
