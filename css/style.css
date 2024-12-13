@@ -148,7 +148,9 @@ footer .container {
         font-size: 0.9rem;
         padding: 10px;
     }
-
+    li {
+        background-color: #333!important;
+    }
     img {
         max-width: 100%;
         height: auto;
