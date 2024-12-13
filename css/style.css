@@ -139,7 +139,10 @@ footer .container {
         margin-left: auto;
         margin-left: auto;
     }
-
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
     ul.list-group {
         width: 100%;
     }
