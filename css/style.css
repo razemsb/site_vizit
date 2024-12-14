@@ -144,6 +144,7 @@ footer .container {
         margin: 0;
         transition: all 0.3s ease-in-out;
         justify-content: space-between;
+        height: 100vh;
     }
     video {
         position: fixed;
