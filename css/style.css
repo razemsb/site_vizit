@@ -23,6 +23,9 @@ video {
 main {
     flex-grow: 1;
 }
+.container {
+    margin-top: 65px!important;
+}
 .card {
     background-color: rgb(45, 42, 42)!important;
     width: 1000px;
