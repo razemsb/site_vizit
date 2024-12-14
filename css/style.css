@@ -220,9 +220,6 @@ footer .container {
     .bi {
         font-size: 50px;
     }
-    .activate:active {
-        border: 1px solid #e9ecef;
-    }
 }
 
 @media (max-width: 480px) and (hover: none) {
