@@ -139,9 +139,6 @@ footer .container {
     margin-left: 10px;
     font-size: 50px;
 }
-.activate:active {
-    border: 1px solid #e9ecef;
-}
 @media (max-width: 768px ) and (hover: none)  {
     html {
         height: calc(var(--vh, 1vh) * 100); 
@@ -222,6 +219,9 @@ footer .container {
     }
     .bi {
         font-size: 50px;
+    }
+    .activate:active {
+        border: 1px solid #e9ecef;
     }
 }
 
