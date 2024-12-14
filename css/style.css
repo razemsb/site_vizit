@@ -28,7 +28,7 @@ main {
 }
 .card {
     background-color: rgb(45, 42, 42)!important;
-    width: 1000px;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -135,6 +135,10 @@ footer .container {
     justify-content: center;
     align-items: center;
 }
+.bi {
+    margin-left: 10px;
+    font-size: 50px;
+}
 @media (max-width: 768px ) and (hover: none)  {
     html {
         height: calc(var(--vh, 1vh) * 100); 
@@ -217,6 +221,9 @@ footer .container {
 
     h6.card-subtitle {
         font-size: 1rem;
+    }
+    .bi {
+        font-size: 50px;
     }
 }
 
