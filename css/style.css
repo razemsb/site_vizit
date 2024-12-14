@@ -171,7 +171,7 @@ footer .container {
     }
     .card {
         width: 100%;
-        height: calc(var(--vh, 1vh) * 100); 
+        height: auto; 
         overflow: hidden;
     }
     .card:hover {
