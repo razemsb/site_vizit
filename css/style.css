@@ -138,7 +138,8 @@ footer .container {
 
 @media (max-width: 768px ) and (hover: none)  {
     html {
-        height: 100px;
+        height: 100vh;
+        overflow: hidden;
     }
     body {
         font-size: 0.9rem;
