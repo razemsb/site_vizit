@@ -139,6 +139,9 @@ footer .container {
     margin-left: 10px;
     font-size: 50px;
 }
+.activate:active {
+    border: 1px solid #e9ecef;
+}
 @media (max-width: 768px ) and (hover: none)  {
     html {
         height: calc(var(--vh, 1vh) * 100); 
@@ -181,7 +184,6 @@ footer .container {
     ul.list-group {
         width: 100%;
     }
-
     ul.list-group li {
         font-size: 0.9rem;
         padding: 10px;
@@ -193,7 +195,6 @@ footer .container {
         max-width: 100%;
         height: auto;
     }
-
     .container {
         padding: 15px;
     }
@@ -206,7 +207,6 @@ footer .container {
         flex-direction: column;
         padding: 10px;
     }
-
     footer a {
         font-size: 0.9rem;
     }
@@ -214,11 +214,9 @@ footer .container {
         transform: none;
         box-shadow: none;
     }
-
     h5.card-title {
         font-size: 1.2rem;
     }
-
     h6.card-subtitle {
         font-size: 1rem;
     }
