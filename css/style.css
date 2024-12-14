@@ -135,12 +135,10 @@ footer .container {
     justify-content: center;
     align-items: center;
 }
-
 @media (max-width: 768px ) and (hover: none)  {
     html {
         height: calc(var(--vh, 1vh) * 100); 
         overflow: hidden;
-        
     }
     body {
         font-size: 0.9rem;
@@ -151,6 +149,8 @@ footer .container {
         margin: 0;
         transition: all 0.3s ease-in-out;
         justify-content: space-between;
+        height: calc(var(--vh, 1vh) * 100); 
+        overflow: hidden;
     }
     main  {
         height: calc(var(--vh, 1vh) * 100);
@@ -167,7 +167,8 @@ footer .container {
     }
     .card {
         width: 100%;
-        
+        height: calc(var(--vh, 1vh) * 100); 
+        overflow: hidden;
     }
     .card:hover {
         transform: none;
